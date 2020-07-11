@@ -2,6 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    -moz-box-sizing: border-box;
 }
 html{
     font-size: 10px;
@@ -16,7 +17,7 @@ body{
 /* ! Global Basic Must Style End */
 .main_body_container{
     max-width: 1080px;
-    height: 60rem;
+    height: auto;
     margin: 0 auto;
     padding: 0 2rem;
     /* border: 2px solid #000000; */
